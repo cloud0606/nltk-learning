@@ -1,3 +1,7 @@
+# nltk-learning
+
+记录自然语言处理课程笔记、作业代码 
+
 ## 1. 处理文本
 
 - [text-processing.md](./1-text-processing.md)

@@ -4,9 +4,11 @@
 
 ## 1. 处理文本
 
-- [text-processing.md](./1-text-processing.md)
+- [1-text-processing.md](./1-text-processing.md)
 
 ## 2. 正则匹配
+
+- [2-regular-expression.md](2-regular-expression.md)
 
 ## 3. 中文分词
 
@@ -14,11 +16,13 @@
 
 ## 5. 文本分类器
 
-- [DocumentClassification](./5-documentc-lassification.md)
+- [5-documentc-lassification.md](./5-documentc-lassification.md)
 
 ## 6. TFIDF
 
 向量空间模型与词权重框架
+
+- [6-TFIDF.md](6-TFIDF.md)
 
 ## 7. 隐含语义分析
 
@@ -28,27 +32,4 @@
 
 ## 9. 主题模型
 
-> 作业1.   使用Jieba实现TextRank算法的关键词计算，采用与TF-IDF实验相同的文本语料（或任选），并对比其与TF-IDF算法在计算结果上的差异，分析差异产生的原因，考虑各自适用的情形。  提交作业：包含文本、代码和简要的分析文档（以压缩包形式提交）， 压缩包命名格式：TextRank-学号姓名.rar
-
-
-> 作业2.  利用LDA模型在gensim中实现今日头条（toutiao_cat_data.txt）文本的主题分析，以其中部分内容进行测试。提交作业的压缩包命名格式：LDA-1-学号姓名.rar
-> 请注意：
-> 1）不要反复多次提交；
-> 2）同一个作业一定要压缩后提交，不要提交零散的文件。
-> 3）提交截止时间：5月17日。
-> 4）提交地址：
-> http://xzc.cn/UCcPQC0cCB
-> 请保留课程作业备份（防止收作业系统不稳定）。
-
----
-
-有的时候我很疑惑，我为什么要学这个，我甚至无暇顾及自己的专业技能的提升。
-
-无奈，无奈
-
-我需要修学分，毕业
-
-那么就告诉自己，既然做了也要尽力做好
-
-毕竟有这样的一个机会，可以让你短暂涉猎一个领域的基本思想，值得！
-
+- [9-主题模型.md](9-主题模型.md)

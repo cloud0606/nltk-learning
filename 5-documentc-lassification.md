@@ -73,7 +73,7 @@ print(nltk.classify.accuracy(classifier, test_set))
 
 首先分析一下整个数据集的基本信息，一共有 7944 个人名，其中男性有 2943 个，女性 5001个，名字的长度最小为2。分别选取不同的特征、特征的组合进行实验。
 
-代码见 [5-homework_classification_name_nb.py](homework_classification_name_nb.py)
+代码：[5-classification_name_nb.py](code/5-classification_name_nb.py)
 
 运行输出：
 
@@ -107,7 +107,7 @@ print(nltk.classify.accuracy(classifier, test_set))
 
 - 基于NLTK实现影评NaiveBayes分类器。
 
-代码见 [5-homework_classification_movie_review_nb.py](homework_classification_movie_review_nb.py)
+代码：[5-classification_movie_review_nb.py](code/5-classification_movie_review_nb.py)
 
 将 `所有影评中前2000高频词是否出现` 作为特征，得出的模型预测准确率为 79.1%。
 

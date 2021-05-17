@@ -5,7 +5,6 @@ from nltk.corpus import stopwords
 import time 
 import matplotlib.pyplot as plt
 
-
 def gettu(fd1):
 	'提取分类效果最好的词，并绘制分类效果-词频曲线。'
 	fp = open("most_informative_features.txt",'r')
@@ -41,8 +40,8 @@ def movie_review_nb(wordRange):
 	# gettu(all_words)
 	all_words = all_words.most_common(wordRange)			#词频表按频率排序, 取特征词为词频表中前2000词
 	word_features = [w for (w,f) in all_words]
-	# en_sw = stopwords.words(fileids='english')
-	# word_features= [w for w in word_features if not w in en_sw] # 不将停词算入特征
+	en_sw = stopwords.words(fileids='english')
+	word_features= [w for w in word_features if not w in en_sw] # 不将停词算入特征
 	# 数据集转为特征集
 	random.shuffle(documents)
 	featuresets = [(document_features(d, word_features), c) for (d,c) in documents]  # 特征提取器提取的特征结构：{……'contains(giving)': False, 'contains(ugly)': False, 'contains(manner)': False, 'contains(bloody)': False}
@@ -53,7 +52,7 @@ def movie_review_nb(wordRange):
 	# 评估分类器：
 	print(nltk.classify.accuracy(classifier, test_set))
 	# 观察分类特征的贡献：
-	classifier.show_most_informative_features(100)
+	classifier.show_most_informative_features(5)
 	# print(classifier.most_informative_features())
 	time_end=time.time()
 	print('time cost',time_end-time_start,'s')

@@ -1,2 +1,5 @@
 # ignore folder
 nltk/
+code/sougou
+code/dict_cn.txt
+code/toutiao_cat_data.txt

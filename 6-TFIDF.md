@@ -161,7 +161,7 @@ TF•IDF 是最常用的权重度量方法，它试图度量一个词对于一�
 
 #### IDF
 
-- 代码：[6-text-dist_Chinese__multiclass_text_TSVD.py](./6-text-dist_Chinese__multiclass_text_TSVD.py)
+- 代码：[6-text-dist_Chinese__multiclass_text_TSVD.py](code/6-text-dist_Chinese__multiclass_text_TSVD.py)
 
   代码中使用来自搜狗的很多新闻报道，使用 TF·IDF 作为权重度量，计算余弦值来衡量向量之间的相似度，输出了余弦值最大（相似度最大）的两个文本
 
@@ -219,7 +219,7 @@ weight=tfidf.toarray()#将tf-idf矩阵抽取出来，元素a[i][j]表示j词在i
 
 参考作业5和本次作业示例代码
 
-- 词集模型：[5-classification_movie_review_nb.py](./5-homework_classification_movie_review_nb.py)
+- 词集模型：[5-classification_movie_review_nb.py](code/5-classification_movie_review_nb.py) 
 - 词袋模型：[6-classfication_movie_review_TF_Sample.py](code/6-classfication_movie_review_TF_Sample.py)
 
 在代码中选择不同的词表范围进行比较，代码中都去除了停词。

@@ -78,7 +78,7 @@ $$
 
 ### 4.1. 预处理
 
-[10-Word2Vec.py](./10-Word2Vec.py)
+[10-Word2Vec.py](code/10-Word2Vec.py)
 
 共目前已处理390000条数据
 
@@ -119,7 +119,7 @@ $$
 
 - Word2Vec
 
-  [10-Word2Vec_model.py](./10-Word2Vec_model.py)
+  [10-Word2Vec_model.py](code/10-Word2Vec_model.py)
 
   ```python
       print('[*] start Word2Vec')
@@ -141,7 +141,7 @@ $$
 
 - Doc2Vec
 
-  [10-dec2vec.py](./10-dec2vec.py)
+  [10-dec2vec.py](code/10-dec2vec.py)
 
   ```bash
   from gensim.corpora import WikiCorpus
@@ -172,7 +172,7 @@ $$
 
 - 词条相似性
 
-  [10-Word2Vec_model.py](./10-Word2Vec_model.py)
+  [10-Word2Vec_model.py](code/10-Word2Vec_model.py)
 
   ```python
   from gensim.models import Word2Vec
@@ -235,7 +235,7 @@ $$
 
 ### 4.4. 构造词云
 
-[10-Word2Vec_model.py](./10-Word2Vec_model.py)
+[10-Word2Vec_model.py](code/10-Word2Vec_model.py)
 
 ```python
 from gensim.models import Word2Vec
